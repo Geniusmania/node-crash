@@ -1,17 +1,15 @@
 {
-  "name": "node",
+  "name": "express",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
+  "type":"module",
   "scripts": {
-    "start": "nodemon --env-file=.env server2.js"
+    "dev": "nodemon server.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  },
   "dependencies": {
     "express": "^4.21.2"
   }
